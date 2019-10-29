@@ -5,9 +5,56 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js" ></script>
-    <title></title>
+    <title>Stress Test</title>
   </head>
   <body>
+<div class="container">
+  <h1>How Stressed Are You?</h1>
+  <form id="formStress">
+    <div class = "form-group">
+      <p>In the last month, have you experienced any of these? Check all that apply.</p>
+      <input type="checkbox" name="question1" value="Sleep">Lack of sleep<br>
+      <input type="checkbox" name="question1" value="Overwhelm">Feeling overwhelmed<br>
+      <input type="checkbox" name="question1" value="Angry">Easily angered<br>
+      <input type="checkbox" name="question1" value="Bored">Bored by everyday activities<br>
+      <input type="checkbox" name="question1" value="Eating">Change in appetite<br>
+      <br>
+      <br>
+      <br>
+
+
+      <p>Have you experienced any of these health conditions? Check all that apply.</p>
+      <input type="checkbox" name="question2" value="BloodPress">High blood pressure<br>
+      <input type="checkbox" name="question2" value="Anxiety">Anxiety<br>
+      <input type="checkbox" name="question2" value="Weight">Weight gain or loss<br>
+      <input type="checkbox" name="question2" value="Insomnia">One or more nights without good sleep<br>
+      <input type="checkbox" name="question2" value="Heart">Rapid heart rate<br>
+      <br>
+      <br>
+      <br>
+
+      <p>Do you engage in any of these activities? Check all that apply.</p>
+      <input type="checkbox" name="question3" value="Meditate">Meditation<br>
+      <input type="checkbox" name="question3" value="Exercise">Aerobic exercise<br>
+      <input type="checkbox" name="question3" value="Talk">Talking with friends or loved ones<br>
+      <input type="checkbox" name="question3" value="Hobby">Pursuing a favorite hobby<br>
+      <input type="checkbox" name="question3" value="Pets">Spending time with a pet or pets<br>
+      <br>
+      <br>
+      <br>
+    </div>
+
+    <button type="submit" id="button">Submit your answers</button>
+  </form>
+
+  <span id="stress-level">
+    <p><b>Your stress level:</b></p></span>
+    <br>
+    <br>
+  <span id="stress-strategy">
+    <p><b>Your stress-busting strategies:</b></p> </span>
+
+</div>
 
   </body>
 </html>
