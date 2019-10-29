@@ -5,3 +5,18 @@
 #stress-strategy {
   display: none;
 }
+#high-stress{
+  display: none;
+}
+
+#medium-stress{
+  display: none;
+}
+
+#low-stress{
+  display: none;
+}
+
+#no-stress{
+  display: none;
+}
