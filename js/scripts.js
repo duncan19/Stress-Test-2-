@@ -5,7 +5,7 @@ $(document).ready(function(){
   event.preventDefault();
 
   $("#stress-level").show();
-  $("#stress-strategy").show();
+  $("#resubmit").show();
   $("form").hide();
 
 $("input:checkbox[name=question1]:checked").each(function (){
@@ -49,5 +49,7 @@ if (score >= 7) {
 
 
 });
-
+  $("#resubmit").click(function(){
+    location.reload(true);
+  });
 });
